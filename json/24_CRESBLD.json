@@ -1,11 +1,12 @@
 {
-    "summary": "Crest Builder Holdings Berhad proposes a private placement involving up to 48,632,267 new shares, representing approximately 30% of the total issued shares (excluding treasury shares). The placement involves subscriptions from identified parties and third-party investors to raise funds.",
+    "summary": "Crest Builder Holdings Berhad proposes a private placement of up to 48,632,267 new shares, representing approximately 30% of the total issued shares (excluding treasury shares). The placement involves subscriptions from identified parties and third-party investors.",
     "attachment_tag": "1. Private placement proposal",
+    "PP_issue_price_RM": 0.5,
     "utilisation_of_proceeds": [
         {
             "use": "Debt repayment",
             "amount": "RM19.44 million",
-            "details": "Partial repayment of a revolving credit facility with Hong Leong Bank Berhad, improving liquidity and freeing up capacity for future business needs.",
+            "details": "Partial repayment of a revolving credit facility with Hong Leong Bank Berhad.",
             "timeframe": "Within 2 months"
         },
         {
@@ -16,10 +17,9 @@
         },
         {
             "use": "Estimated expenses",
-            "amount": "RM930,000",
+            "amount": "RM0.93 million",
             "details": "Professional fees, fees payable to authorities and placement fee.",
             "timeframe": "Within 1 month"
         }
-    ],
-    "PP_issue_price_RM": 0.5
+    ]
 }

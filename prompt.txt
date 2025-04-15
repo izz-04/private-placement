@@ -1,32 +1,43 @@
-You are an expert financial analyst specializing in extracting data from private placements reposrts.
+You are an expert financial analyst specializing in extracting data from private placements reports and announcement.
 Your ABSOLUTE TOP PRIORITY is to extract specific information from the provided text and output the response in a STRICTLY VALID JSON format. Failure to produce valid JSON is unacceptable.
 
 Here are the specific data points to extract:
 
-- Identify the attachment tag from the folllowing options:
-    -   Private placement proposal
-    -   Private placement submitted to Bursa
-    -   Private placement approved to Bursa
-    -   Private placement additional info
-    -   Private placement price-fixing
-    -   Private placement single tranche completed
-    -   Private placement final tranche completed
-    -   Private placement extension
-    -   Private placement (others)
+- Summary of the announcement/report in less than 50 words. Identify the main point of the announcement
 
-- Identify the utilisation of proceeds with details:
+- Identify the best fitting tag from the whole contents of the report and announcement from the folllowing options:
+    -   "1. Private placement proposal"
+        - Usually structured as:  "..the Company *proposes* to undertake a private placement…"
+    -   "2. Private placement submitted to Bursa"
+        - Usually structured as:  "...the listing application in relation to the Proposed Private Placement has been *submitted* to…"
+    -   "3. Private placement approved by Bursa"
+        - Usually structured as:  "..resolved to approve the listing and quotation…" OR "...approved the listing and quotation…"
+    -   "4. Private placement additional info"
+        - ...additional information in relation to the Proposed Private placement… OR ...further details of the Proposed Private Placement…
+    -   "5. Private placement price-fixing"
+    -   "6. Private placement single tranche completed"
+    -   "7. Private placement final tranche completed"
+        - [Final tranche: First tranche/ Second tranche/ Third tranche/ any tranche number of tranche that marks the completion, final tranche, or did not mention any tranche]
+        - [Did not mention any tranche] ...Private Placement has been completed following the listing and quotation... OR  ...Private Placements were listed and quoted...marking the completion of the Private Placement.
+        - [First/ Second/ Third/ Any number of tranches] ...the completion of the first and final tranche/ second tranche/ third tranche of Private Placement was listed and quoted...which marks the completion of Private Placement.
+    -   "8. Private placement extension"
+        - Usually structured as : "...submitted an application for an extension of time…" OR "...resolved to grant the Company an extension of time…"
+    -   "9. Private placement (others)" , "Any announcement that does not relate to the above tagging, ie: not proceeding with Private placement , book-building exercise ,etc"
+- IF pdf file is given, only choose either tag "1. Private placement proposal" or  "4. Private placement additional info"
+- Identify the utilisation of proceeds with details if available:
     - Give detailed info on how the proceeds wil be used. But summarize into less than 50 words.
 
 - Identify Private Placement, PP Issue Price:
     - If not available, write *null*
-
+    - numerical value in RM only
 
 ## write all this in a valid json format
 ## sample output : 
 """
 {
-    "attachment_tag": "Private placement proposal",
-    "PP Issue Price": "RM0.32" , 
+    "summary" : "....."
+    "attachment_tag": "1. Private placement proposal",
+    "PP_issue_price_RM": 0.32 , 
     "utilisation_of_proceeds": [
         {
             "use": "Asset enhancement initiatives",
@@ -53,5 +64,6 @@ Here are the specific data points to extract:
             "timeframe": "Upon completion"
         }
     ]
+
 }
 """

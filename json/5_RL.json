@@ -1,24 +1,24 @@
 {
-    "summary": "This announcement provides additional information regarding the proposed private placement by Reservoir Link Energy Bhd (RLEB). It clarifies the utilization of proceeds based on minimum and maximum scenarios, detailing allocations for acquisition of PMSB and working capital.",
+    "summary": "This is an announcement providing additional information regarding a proposed private placement. It clarifies the utilization of proceeds based on minimum and maximum scenarios, detailing allocations for the acquisition of PMSB and working capital.",
     "attachment_tag": "4. Private placement additional info",
     "PP_issue_price_RM": 0.32,
     "utilisation_of_proceeds": [
         {
-            "use": "Acquisition of 30% equity interest in Propel Maxflo Sdn Bhd (PMSB)",
-            "amount": "RM7.39 million (minimum and maximum scenario)",
-            "details": "To fully fund the acquisition of PMSB, involved in oil and gas products and services.",
+            "use": "Acquisition of PMSB",
+            "amount": "RM7.39 million",
+            "details": "Fully fund the Acquisition of 30% equity interest in Propel Maxflo Sdn Bhd (PMSB).",
             "timeframe": "Within 12 months from the receipt of funds"
         },
         {
             "use": "Working capital",
             "amount": "RM2.982 million (minimum scenario), RM4.408 million (maximum scenario)",
-            "details": "For oil and gas services and renewable energy activities.",
+            "details": "For the Group's oil and gas services segment and renewable energy activities.",
             "timeframe": "Within 12 months from the receipt of funds"
         },
         {
             "use": "Estimated expenses for the Proposed Private Placement",
-            "amount": "RM300,000 (minimum and maximum scenario)",
-            "details": "Professional fees, regulatory fees, and other incidental expenses.",
+            "amount": "RM300,000",
+            "details": "Professional fees, regulatory fees, and contingencies.",
             "timeframe": "Upon completion of the Proposed Private Placement"
         }
     ]

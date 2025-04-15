@@ -1,30 +1,30 @@
 {
-    "summary": "Yong Tai Berhad announces a variation to its proposed private placement, revising the indicative issue price to RM0.1520 per share and adjusting the utilization of proceeds due to changes in the share price.",
+    "summary": "Yong Tai Berhad announces a variation to the proposed utilization of proceeds from its private placement. Due to a revised indicative issue price, the company is reallocating funds from future land acquisitions to repay existing loans, finance existing projects, and support working capital.",
     "attachment_tag": "4. Private placement additional info",
-    "PP_issue_price_RM": 0.152,
+    "PP_issue_price_RM": null,
     "utilisation_of_proceeds": [
         {
             "use": "Repayment of existing loan and borrowings",
-            "amount": "RM12.00 million (revised)",
-            "details": "Repay term loans and bank overdraft with an effective average interest rate of 8.00% per annum.",
+            "amount": "RM12,000 - RM12,000",
+            "details": "Repay its term loans and bank overdraft with an effective average interest rate of 8.00% per annum.",
             "timeframe": "Within 12 months"
         },
         {
             "use": "Part financing of YTB Group's existing projects",
-            "amount": "RM6.00 million (revised)",
+            "amount": "RM3,000 - RM6,000",
             "details": "Payment of outstanding progress claims to main contractors and suppliers for the Group's existing projects.",
             "timeframe": "Within 12 months"
         },
         {
             "use": "Working capital requirements",
-            "amount": "RM3.70 million to RM8.92 million (revised)",
+            "amount": "RM3,700 - RM8,921",
             "details": "Support its working capital requirements for the Group's day-to-day operations.",
             "timeframe": "Within 12 months"
         },
         {
             "use": "Estimated expenses for the Proposed Private Placement",
-            "amount": "RM850,000 to RM1.10 million (revised)",
-            "details": "Fees payable to/for the relevant authorities, advisers and placement fees as well as other miscellaneous expenses.",
+            "amount": "RM850 - RM1,100",
+            "details": "Fees payable to/for the relevant authorities, advisers and placement fees as well as other miscellaneous expenses to be incurred pursuant to the Proposed Private Placement.",
             "timeframe": "Within 6 months"
         }
     ]
