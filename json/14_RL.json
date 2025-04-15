@@ -1,0 +1,25 @@
+{
+    "summary": "Reservoir Link Energy Bhd proposes a private placement of up to 37,806,355 new ordinary shares, representing approximately 10% of the total issued shares, to independent third-party investors. The placement aims to raise funds for future endeavors.",
+    "attachment_tag": "1. Private placement proposal",
+    "PP_issue_price_RM": 0.32,
+    "utilisation_of_proceeds": [
+        {
+            "use": "Acquisition of 30% equity interest in Propel Maxflo Sdn Bhd (PMSB)",
+            "amount": "RM7.39 million",
+            "details": "Fully fund the acquisition of 5,450,044 ordinary shares in PMSB, representing 30% equity interest. PMSB is involved in providing products and services for exploration, drilling, and well intervention.",
+            "timeframe": "Within 12 months from receipt of funds"
+        },
+        {
+            "use": "Working capital requirements",
+            "amount": "RM4.408 million",
+            "details": "Mainly for renewable energy activities, including payment for financing charges, staff-related costs, and general administrative expenses.",
+            "timeframe": "Within 12 months from receipt of funds"
+        },
+        {
+            "use": "Estimated expenses for the Proposed Private Placement",
+            "amount": "RM0.30 million",
+            "details": "Fees payable to the relevant authorities, advisory and placement fees, and other miscellaneous expenses.",
+            "timeframe": "Upon completion of the Proposed Private Placement"
+        }
+    ]
+}
